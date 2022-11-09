@@ -105,11 +105,11 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--working_dir', type=str,
-      help='Directory to save the results.', default='/data/aaron/adversarial_attack/explain_methods/result_data/ACE_torch')
+      help='Directory to save the results.', default='/data/aaron/adversarial_attack/explain_methods/ACE_PyTorch_implementation/ACE_data/ACE_torch')
     parser.add_argument('--source_dir', type=str,
       help='Directory where the networks classes image folders', default='/data/dataset/ImageNet2012/train')
     parser.add_argument('--random_dir', type=str,
-      help='Directory where the networks random image folders', default='/data/aaron/adversarial_attack/explain_methods/result_data/ImageNet')
+      help='Directory where the networks random image folders', default='/data/aaron/adversarial_attack/explain_methods/ACE_PyTorch_implementation/ACE_data/ImageNet')
     parser.add_argument('--label_path', type=str,
       help='Path to model checkpoints.', default='/data/dataset/ImageNet2012/imagenet_labels.csv')
     parser.add_argument('--target_class', type=str,
